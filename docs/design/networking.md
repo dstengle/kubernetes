@@ -137,7 +137,7 @@ virtual IP which clients can access and which is transparently proxied to the
 pods in a Service. Each node runs a kube-proxy process which programs
 `iptables` rules to trap access to service IPs and redirect them to the correct
 backends. This provides a highly-available load-balancing solution with low
-performance overhead by balancing client traffic from a node on that same node.
+performance overhead by balancing client traffic from a pod on that same node.
 
 ## External to internal
 
